@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         // Get the id of the view that shows the number text view
         TextView numbers = (TextView) findViewById(R.id.numbers);
 
-        // Set a click listener on the text view
+        // Set a click listener on the number text view
 
         numbers.setOnClickListener(new View.OnClickListener() {
 
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         // Get the id of the view that shows the number text view
        TextView color = (TextView) findViewById(R.id.colors);
 
-        // Set a click listener on the text view
+        // Set a click listener on the color text view
 
         color.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -57,7 +57,6 @@ public class MainActivity extends AppCompatActivity {
 
                 startActivity(colorIntent);
             }
-
 
         });
 
